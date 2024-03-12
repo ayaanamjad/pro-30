@@ -64,7 +64,7 @@ function setup() {
   breakButton.class("breakbutton");
 
   //breakButton.mouseClicked(handleButtonPress);
-  //breakButton.mousePressed(handleButtonPress);
+  breakButton.mousePressed(handleButtonPress);
   //breakButton.mouse(handleButtonPress);
   //breakButton.mousePressed(ButtonPress);
 
@@ -100,10 +100,10 @@ function handleButtonPress() {
     bridge.break();
   }, 1500); */
 
-  /* jointLink.dettach();
+   jointLink.dettach();
   setTimeout(() => {
     break();
-  }, 1500); */
+  }, 1500); 
 
   /* jointLink.dettach();
   setTimeout(() => {
